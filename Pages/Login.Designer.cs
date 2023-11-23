@@ -1,0 +1,335 @@
+﻿namespace Syncra
+{
+    partial class Login
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            LoginContainer = new Panel();
+            Credits = new Label();
+            panel8 = new Panel();
+            RegisterButton = new Label();
+            LoginButton = new Controls.WSButton();
+            panel7 = new Panel();
+            PasswordTB = new Controls.WSTextBox();
+            panel6 = new Panel();
+            UsernameTB = new Controls.WSTextBox();
+            panel5 = new Panel();
+            label1 = new Label();
+            panel4 = new Panel();
+            Title = new Label();
+            TopSepPanel = new Panel();
+            LeftSepPanel = new Panel();
+            RightSepPanel = new Panel();
+            CloseApp = new Label();
+            Logo = new PictureBox();
+            LoginContainer.SuspendLayout();
+            panel8.SuspendLayout();
+            RightSepPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Logo).BeginInit();
+            SuspendLayout();
+            // 
+            // LoginContainer
+            // 
+            LoginContainer.BackColor = Color.White;
+            LoginContainer.Controls.Add(Credits);
+            LoginContainer.Controls.Add(panel8);
+            LoginContainer.Controls.Add(LoginButton);
+            LoginContainer.Controls.Add(panel7);
+            LoginContainer.Controls.Add(PasswordTB);
+            LoginContainer.Controls.Add(panel6);
+            LoginContainer.Controls.Add(UsernameTB);
+            LoginContainer.Controls.Add(panel5);
+            LoginContainer.Controls.Add(label1);
+            LoginContainer.Controls.Add(panel4);
+            LoginContainer.Controls.Add(Title);
+            LoginContainer.Controls.Add(TopSepPanel);
+            LoginContainer.Controls.Add(LeftSepPanel);
+            LoginContainer.Controls.Add(RightSepPanel);
+            LoginContainer.Dock = DockStyle.Right;
+            LoginContainer.Location = new Point(475, 0);
+            LoginContainer.Name = "LoginContainer";
+            LoginContainer.Size = new Size(325, 400);
+            LoginContainer.TabIndex = 0;
+            LoginContainer.MouseMove += DragWindow;
+            // 
+            // Credits
+            // 
+            Credits.Dock = DockStyle.Bottom;
+            Credits.Font = new Font("Kollektif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            Credits.Location = new Point(40, 377);
+            Credits.Name = "Credits";
+            Credits.Size = new Size(245, 23);
+            Credits.TabIndex = 14;
+            Credits.Text = "Syncra © - A Wavestorm Software Tool";
+            Credits.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // panel8
+            // 
+            panel8.Controls.Add(RegisterButton);
+            panel8.Dock = DockStyle.Top;
+            panel8.Location = new Point(40, 287);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(245, 28);
+            panel8.TabIndex = 13;
+            // 
+            // RegisterButton
+            // 
+            RegisterButton.Cursor = Cursors.Hand;
+            RegisterButton.Dock = DockStyle.Right;
+            RegisterButton.Font = new Font("Kollektif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            RegisterButton.ForeColor = Color.FromArgb(50, 78, 205);
+            RegisterButton.Location = new Point(183, 0);
+            RegisterButton.Name = "RegisterButton";
+            RegisterButton.Size = new Size(62, 28);
+            RegisterButton.TabIndex = 15;
+            RegisterButton.Text = "Register";
+            RegisterButton.TextAlign = ContentAlignment.MiddleRight;
+            RegisterButton.Click += RegisterButton_Click;
+            RegisterButton.MouseEnter += RegisterButton_MouseEnter;
+            RegisterButton.MouseLeave += RegisterButton_MouseLeave;
+            // 
+            // LoginButton
+            // 
+            LoginButton.BackColor = Color.FromArgb(50, 78, 205);
+            LoginButton.BackgroundColor = Color.FromArgb(50, 78, 205);
+            LoginButton.BorderColor = Color.PaleVioletRed;
+            LoginButton.BorderRadius = 12;
+            LoginButton.BorderSize = 0;
+            LoginButton.Dock = DockStyle.Top;
+            LoginButton.FlatAppearance.BorderSize = 0;
+            LoginButton.FlatStyle = FlatStyle.Flat;
+            LoginButton.Font = new Font("Kollektif", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginButton.ForeColor = Color.White;
+            LoginButton.Location = new Point(40, 247);
+            LoginButton.Name = "LoginButton";
+            LoginButton.Size = new Size(245, 40);
+            LoginButton.TabIndex = 12;
+            LoginButton.Text = "Login";
+            LoginButton.TextColor = Color.White;
+            LoginButton.UseVisualStyleBackColor = false;
+            // 
+            // panel7
+            // 
+            panel7.Dock = DockStyle.Top;
+            panel7.Location = new Point(40, 237);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(245, 10);
+            panel7.TabIndex = 10;
+            // 
+            // PasswordTB
+            // 
+            PasswordTB.BackColor = SystemColors.Window;
+            PasswordTB.BorderColor = Color.FromArgb(50, 78, 205);
+            PasswordTB.BorderFocusColor = Color.FromArgb(60, 88, 215);
+            PasswordTB.BorderRadius = 12;
+            PasswordTB.BorderSize = 2;
+            PasswordTB.Dock = DockStyle.Top;
+            PasswordTB.Font = new Font("Kollektif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            PasswordTB.ForeColor = Color.FromArgb(64, 64, 64);
+            PasswordTB.Location = new Point(40, 207);
+            PasswordTB.Margin = new Padding(4);
+            PasswordTB.Multiline = false;
+            PasswordTB.Name = "PasswordTB";
+            PasswordTB.Padding = new Padding(10, 7, 10, 7);
+            PasswordTB.PasswordChar = true;
+            PasswordTB.PlaceholderColor = Color.DarkGray;
+            PasswordTB.PlaceholderText = "Password";
+            PasswordTB.Size = new Size(245, 30);
+            PasswordTB.TabIndex = 71;
+            PasswordTB.Texts = "";
+            PasswordTB.UnderlinedStyle = false;
+            // 
+            // panel6
+            // 
+            panel6.Dock = DockStyle.Top;
+            panel6.Location = new Point(40, 197);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(245, 10);
+            panel6.TabIndex = 8;
+            // 
+            // UsernameTB
+            // 
+            UsernameTB.BackColor = SystemColors.Window;
+            UsernameTB.BorderColor = Color.FromArgb(50, 78, 205);
+            UsernameTB.BorderFocusColor = Color.FromArgb(60, 88, 215);
+            UsernameTB.BorderRadius = 12;
+            UsernameTB.BorderSize = 2;
+            UsernameTB.Dock = DockStyle.Top;
+            UsernameTB.Font = new Font("Kollektif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            UsernameTB.ForeColor = Color.FromArgb(64, 64, 64);
+            UsernameTB.Location = new Point(40, 167);
+            UsernameTB.Margin = new Padding(4);
+            UsernameTB.Multiline = false;
+            UsernameTB.Name = "UsernameTB";
+            UsernameTB.Padding = new Padding(10, 7, 10, 7);
+            UsernameTB.PasswordChar = false;
+            UsernameTB.PlaceholderColor = Color.DarkGray;
+            UsernameTB.PlaceholderText = "Username";
+            UsernameTB.Size = new Size(245, 30);
+            UsernameTB.TabIndex = 70;
+            UsernameTB.Texts = "";
+            UsernameTB.UnderlinedStyle = false;
+            // 
+            // panel5
+            // 
+            panel5.Dock = DockStyle.Top;
+            panel5.Location = new Point(40, 157);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(245, 10);
+            panel5.TabIndex = 6;
+            // 
+            // label1
+            // 
+            label1.Dock = DockStyle.Top;
+            label1.Font = new Font("Kollektif", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(40, 130);
+            label1.Name = "label1";
+            label1.Size = new Size(245, 27);
+            label1.TabIndex = 5;
+            label1.Text = "Login";
+            label1.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // panel4
+            // 
+            panel4.Dock = DockStyle.Top;
+            panel4.Location = new Point(40, 120);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(245, 10);
+            panel4.TabIndex = 4;
+            // 
+            // Title
+            // 
+            Title.Dock = DockStyle.Top;
+            Title.Font = new Font("Kollektif", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Title.Location = new Point(40, 80);
+            Title.Name = "Title";
+            Title.Size = new Size(245, 40);
+            Title.TabIndex = 0;
+            Title.Text = "Syncra";
+            Title.TextAlign = ContentAlignment.MiddleCenter;
+            Title.MouseMove += DragWindow;
+            // 
+            // TopSepPanel
+            // 
+            TopSepPanel.Dock = DockStyle.Top;
+            TopSepPanel.Location = new Point(40, 0);
+            TopSepPanel.Name = "TopSepPanel";
+            TopSepPanel.Size = new Size(245, 80);
+            TopSepPanel.TabIndex = 1;
+            TopSepPanel.MouseMove += DragWindow;
+            // 
+            // LeftSepPanel
+            // 
+            LeftSepPanel.Dock = DockStyle.Left;
+            LeftSepPanel.Location = new Point(0, 0);
+            LeftSepPanel.Name = "LeftSepPanel";
+            LeftSepPanel.Size = new Size(40, 400);
+            LeftSepPanel.TabIndex = 2;
+            LeftSepPanel.MouseMove += DragWindow;
+            // 
+            // RightSepPanel
+            // 
+            RightSepPanel.Controls.Add(CloseApp);
+            RightSepPanel.Dock = DockStyle.Right;
+            RightSepPanel.Location = new Point(285, 0);
+            RightSepPanel.Name = "RightSepPanel";
+            RightSepPanel.Size = new Size(40, 400);
+            RightSepPanel.TabIndex = 3;
+            RightSepPanel.MouseMove += DragWindow;
+            // 
+            // CloseApp
+            // 
+            CloseApp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            CloseApp.AutoSize = true;
+            CloseApp.Cursor = Cursors.Hand;
+            CloseApp.Font = new Font("Kollektif", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            CloseApp.Location = new Point(12, 7);
+            CloseApp.Name = "CloseApp";
+            CloseApp.Size = new Size(23, 21);
+            CloseApp.TabIndex = 0;
+            CloseApp.Text = "X";
+            CloseApp.Click += CloseApplication;
+            CloseApp.MouseEnter += CloseApp_MouseEnter;
+            CloseApp.MouseLeave += CloseApp_MouseLeave;
+            // 
+            // Logo
+            // 
+            Logo.Dock = DockStyle.Fill;
+            Logo.Image = Properties.Resources.Main_White;
+            Logo.Location = new Point(0, 0);
+            Logo.Name = "Logo";
+            Logo.Size = new Size(475, 400);
+            Logo.SizeMode = PictureBoxSizeMode.Zoom;
+            Logo.TabIndex = 1;
+            Logo.TabStop = false;
+            Logo.MouseMove += DragWindow;
+            // 
+            // Login
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(50, 78, 205);
+            ClientSize = new Size(800, 400);
+            Controls.Add(Logo);
+            Controls.Add(LoginContainer);
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Name = "Login";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Login";
+            Load += Login_Load;
+            LoginContainer.ResumeLayout(false);
+            panel8.ResumeLayout(false);
+            RightSepPanel.ResumeLayout(false);
+            RightSepPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)Logo).EndInit();
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Panel LoginContainer;
+        private PictureBox Logo;
+        private Label Title;
+        private Panel TopSepPanel;
+        private Panel panel5;
+        private Label label1;
+        private Panel panel4;
+        private Panel LeftSepPanel;
+        private Panel RightSepPanel;
+        private Controls.WSTextBox PasswordTB;
+        private Panel panel6;
+        private Controls.WSTextBox UsernameTB;
+        private Panel panel7;
+        private Controls.WSButton LoginButton;
+        private Panel panel8;
+        private Label RegisterButton;
+        private Label CloseApp;
+        private Label Credits;
+    }
+}
